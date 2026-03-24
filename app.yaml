@@ -1,0 +1,15 @@
+command:
+  - python
+  - app.py
+
+env:
+  - name: WAREHOUSE_ID
+    value: ""
+  - name: CATALOG
+    value: "olympus_hub"
+  - name: SCHEMA
+    value: "opsdata"
+  - name: API_KEY
+    value: ""
+  - name: RG_NAME
+    value: "default"
